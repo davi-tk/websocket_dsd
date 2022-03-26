@@ -1,0 +1,11 @@
+{
+  "name": "websocket_dsd",
+  "version": "1.0.0",
+  "description": "app using websocket",
+  "main": "index.js",
+  "author": "Davi Dantas <davi.soares02@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
