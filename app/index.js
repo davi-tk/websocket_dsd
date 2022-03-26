@@ -6,7 +6,9 @@ socket.on('message', text => {
     document.querySelector('ul').appendChild(li)
 })
 
-document.querySelector('button').onclick = () => {
-    const text = document.querySelector('input').value
+document.getElementById('btn-enviar-mensagem').onclick = () => {
+    input = document.getElementById('input-mensagem')
+    const text = input.value
+    input.value = ''
     socket.emit('message', text)
 } 
