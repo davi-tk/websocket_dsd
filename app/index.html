@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
     <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div class="login">
+        <input placeholder="Digite seu nome..." class="input-nome" type="text">
+        <button class="btn-nome">enviar</button>
+    </div>
+    <div class="mensagens">
+
+        <ul>
+    
+        </ul>
         
     </div>
+    <div class="form">
+        <input id="input-mensagem" type="text" placeholder="message">
+        <button id="btn-enviar-mensagem">enviar</button>
+    </div>
 
-    <ul>
-
-    </ul>
-    
-    <input id="input-mensagem" type="text" placeholder="message">
-    <button id="btn-enviar-mensagem">enviar</button>
 </body>
 </html>
